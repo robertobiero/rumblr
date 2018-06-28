@@ -60,13 +60,13 @@ public class RumblrController {
         return rumblrService.findAll();
     }
 
-    @RequestMapping(value="/{rumbleId}", method= GET)
+  /*  @RequestMapping(value="/{rumbleId}", method= GET)
     public String rumble(
             @PathVariable("rumbleId") long rumbleId,
             Model model) {
         model.addAttribute(rumblrService.findById(rumbleId));
         return "rumble";
-    }
+    }*/
 
     @RequestMapping(value="/register", method= GET)
     public String showRegistrationForm(Model model)

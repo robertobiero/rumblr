@@ -14,6 +14,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.view.
         InternalResourceViewResolver;
+import org.springframework.web.servlet.view.tiles3.TilesViewResolver;
 
 
 @Configuration
@@ -32,6 +33,10 @@ public class WebConfig  implements WebMvcConfigurer {
         return resolver;
     }
 
+    @Bean
+    public ViewResolver viewResolver2() {
+        return new TilesViewResolver();
+    }
 
 
     @Override

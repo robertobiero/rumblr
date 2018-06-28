@@ -2,7 +2,7 @@
 <%@ page session="false" %>
 <html>
 <head>
-    <title>Spittr</title>
+    <title><h1><s:message code="rumblr.welcome" /></h1></title>
     <link rel="stylesheet"
           type="text/css"
           href="<c:url value="" />" >
