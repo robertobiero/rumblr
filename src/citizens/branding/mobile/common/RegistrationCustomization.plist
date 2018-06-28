@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	 <key>BankBannerImage</key>
+	 <string></string>
+	<key>BankLogoImage</key>
+	<string>RegistrationBankLogo.png</string>
+	<key>LoginBackgroundHasTint</key>
+	<string>NO</string>
+	<key>LoginBackgroundTint</key>
+	<string>#FF0000</string>
+	<key>LoginBackgroundImage</key>
+	<string>LoginAD.png</string>
+	<key>RegistrationWindowBorderThickness</key>
+	<real>1.5</real>
+	<key>RegistrationWindowBorderColor</key>
+	<string>#666666</string>
+	<key>RegistrationWindowBackgroundAlpha</key>
+	<real>0.8</real>
+	<key>RegistrationWindowShadowAlpha</key>
+	<real>0.5</real>
+	<key>RegistrationBackgroundTintColor</key>
+	<string>#4c4c4c</string>
+	<key>RegistrationBackgroundHasTint</key>
+	<string>YES</string>
+	<key>RegistrationBackgroundImage</key>
+	<string>loginbgTexture.png</string>
+	<key>WelcomeImage</key>
+	<string>RegistrationWelcome.png</string>
+</dict>
+</plist>

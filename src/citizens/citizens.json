@@ -1,0 +1,58 @@
+    "citizens": {
+        "instances": {
+            "citizens": {
+                "smsBankCode": "CITZN",
+                "tiers": [
+                    {
+                        "host": "10.111.60.10",
+                        "tier": "app"
+                    },
+                    {
+                        "host": "10.110.60.10",
+                        "tier": "wasp"
+                    },
+                    {
+                        "host": "10.115.60.10",
+                        "tier": "comm"
+                    }
+                ],
+                "type": "PROD"
+            },
+            "citizens_cert": {
+                "listener": "true",
+                "smsBankCode": "CITZNT",
+                "tiers": [
+                    {
+                        "host": "10.111.60.110",
+                        "tier": "app"
+                    },
+                    {
+                        "host": "10.110.60.110",
+                        "tier": "wasp"
+                    },
+                    {
+                        "host": "10.115.60.110",
+                        "tier": "comm"
+                    }
+                ],
+                "type": "CERT"
+            },
+            "citizens_qa": {
+                "smsBankCode": "CITZNQ",
+                "tiers": [
+                    {
+                        "host": "172.23.11.60",
+                        "tier": "app"
+                    },
+                    {
+                        "host": "172.23.10.60",
+                        "tier": "wasp"
+                    }
+                ],
+                "type": "QA"
+            }
+        },
+        "productName": "Commercial Center",
+        "secureBrowser": "true",
+        "smallbusiness": "true"
+    },   
