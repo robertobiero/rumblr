@@ -74,7 +74,7 @@ public class RumblrController {
     {
 
         model.addAttribute(new User());
-        return "registerForm";
+        return "registration";
     }
 
     @RequestMapping(value="/register", method=RequestMethod.POST)
